@@ -33,7 +33,7 @@ function App() {
         Seu <span className='bg-nlw-gradiente bg-clip-text text-transparent'>duo</span> está aqui
       </h1>
 
-      <div className='flex gap-6 mt-16'>
+      <div className='flex gap-6 mt-16 overflow-x-auto'>
         {games.map(game => {
           return(
             <GameBanner 
